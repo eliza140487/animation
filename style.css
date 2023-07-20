@@ -1,0 +1,195 @@
+body {
+  height: 700px;
+ 
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-vector/panorama-view-of-spring-village-with-green-meadow-on-hills-with-blue-sky_39190-261.jpg?w=2000);
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+
+.key {
+    width: 150px;
+    height: 100px;
+    background-image: url(https://usagif.com/wp-content/uploads/butterfly-animation-103.gif);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: repeat;
+    top: 500px;
+    position: relative;
+    animation: eliza 25s infinite;
+    /* right: -800px ; */
+ 
+}
+
+
+.mey {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://i.pinimg.com/originals/9a/fd/3e/9afd3e28fafe772c1b8634f3b039f2e1.gif);
+    background-size: cover;
+    position: relative;
+    top: 47%;
+    left: 1200px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    animation: guli 12s  infinite;
+    
+}
+
+
+.rey {
+    width: 100px;
+    height: 100px;
+    position: relative;
+   top: -80px;
+    /* right: -200px; */
+   background-image: url(https://i.pinimg.com/originals/ff/27/8a/ff278a41426d2619ea59ff0d14395be2.gif);
+   background-size: cover;
+   animation: adi 18s  infinite;
+   
+}
+@keyframes eliza {
+    0%{
+       left: 1300px;
+    }
+    25%{
+        left: 1200px;
+        
+    }
+    50%{
+        left:  1000px;
+    }
+
+    75%{
+       left: 800px;
+    }
+    90%{
+        left: 300px;
+    }
+
+    100%{
+        left: -200px;
+    }
+}
+@keyframes guli {
+    0%{
+       left: -1200px;
+    }
+    25%{
+        left:-1000px;
+        
+    }
+
+    50%{
+        left:  -900px;
+    }
+
+    75%{
+       left: -700px;
+    }
+    90%{
+        left: - 500px;
+    }
+
+    100%{
+        left: -100px;
+    }
+}
+@keyframes adi {
+    0%{
+        left: -200px;
+    }
+
+    100%{
+        left: 1300px;
+    }
+}
+@media (max-width:30px){
+    .key {
+    width: 150px;
+    height: 100px;
+    /* background-image: url(https://top-fon.com/uploads/posts/2023-01/1674853204_top-fon-com-p-fon-dlya-prezentatsii-deti-i-doroga-192.jpg);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: repeat; */
+    overflow: hidden;
+}
+}
+.mey {
+    width: 150px;
+    height: 150px;
+    /* background-image: url(https://cdn-icons-png.flaticon.com/512/4312/4312414.png);
+    background-size: cover; */
+    top: 50%;
+}
+/* .car {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4312/4312414.png);
+    background-size: cover;
+    top: 50%;
+} */
+
+/* .cart img {
+    width: 100px;
+    height: 100px;
+    top: 17px;
+} */
+
+.rey {
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 10px 5px yellowgreen; */
+    position: relative;
+    /* top: -95%; */
+    animation: adi 10s linear infinite;
+} 
+
+/* @keyframes eliza {
+    0%{
+        left: -1300px;
+    }
+
+    100%{
+        left: 200px;
+    }
+}
+
+@keyframes guli {
+    0% {
+        left: -620px;
+    }
+    50%{
+        left: -400px;
+    }
+
+    100%{
+        left: -100px;
+    }
+}
+
+@keyframes adi {
+    0%{
+        left: -10;
+    }
+    25%{
+        left: 100px;
+        
+    }
+
+    50%{
+        left: 200px;
+    }
+
+    75%{
+        left: 300px;
+    }
+
+    100%{
+        left: 400px;
+    }
+} */
+
+
